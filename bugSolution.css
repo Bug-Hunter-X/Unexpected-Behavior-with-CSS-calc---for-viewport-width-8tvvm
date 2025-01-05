@@ -1,0 +1,16 @@
+/* bugSolution.css */
+
+/* Ensure the parent element has proper dimensions */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#myElement {
+  width: calc(50vw - 10px); /* Added some padding for better visualization */
+  background-color: lightblue;
+  padding: 10px;
+  box-sizing: border-box; /* to include padding in the width calculation */
+}
+/* Other styles should not interfere with the width calculation.  Ensure no conflicting inline styles or parent container styles */
